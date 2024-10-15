@@ -8,7 +8,7 @@
 import os
 from typing import List
 
-PORT = int(os.getenv("PORT", "8080"))
+PORT = 19892
 ForbiddenWords: List[str] = []
 OAIKEY = os.getenv("OAIKEY", "")
 MODERATION = os.getenv("MODERATION", "https://gateway.ai.cloudflare.com/v1/040ac2002b4dd67637e97c628feb3484/xyhelper/openai/moderations")
